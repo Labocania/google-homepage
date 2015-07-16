@@ -1,0 +1,121 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+li:first-child  {
+	color: gray;
+}
+ul li:nth-child(4), ul li:nth-child(5), ul li:nth-child(7) {
+	min-width: 30px;
+	min-height: 30px;
+}
+
+a:hover {
+	text-decoration: underline black;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.nav {
+	float: right;
+	margin: 7px 15px 0 0;
+}
+
+div {
+	display: block;
+}
+
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+
+.Google {
+
+	margin-top: 145px;
+}
+
+input {
+	width: 535px;
+	height: 27px;
+	font-size: medium;
+	margin: 0em;
+}
+
+input[type=submit] {
+	margin-top: 15px;
+	margin-right: 8px;
+	border: 1px solid #dcdcdc;
+	color: #444;
+	font-size: 11px;
+	padding: 8px, 10px, 8px, 10px;
+	font-weight: bold;
+	border-radius: 2px;
+	border-color: rgba(0,0,0,0.1);
+}
+
+#Pesquisa {
+	width: 105px;
+	height: 30px;
+}
+
+#Sorte {
+	width: 120px;
+	height: 30px;
+}
+
+footer {
+	bottom: 0;
+	position: absolute;
+	background: #f2f2f2;
+	line-height: 40px;
+	min-width: 100%;
+}
+
+.Left {
+	list-style-type: none;
+	display: block;
+	float: left;
+}
+
+.Right {
+	list-style-type: none;
+	display: block;
+	float: right;
+}
+
+#botlink {
+	color: gray;
+}
